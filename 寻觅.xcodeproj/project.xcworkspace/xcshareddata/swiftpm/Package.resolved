@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CodeScanner",
+        "repositoryURL": "https://github.com/twostraws/CodeScanner",
+        "state": {
+          "branch": null,
+          "revision": "a2144ddaa7c43a6ee00873edd4cc7815ad97942f",
+          "version": "1.0.7"
+        }
+      },
+      {
+        "package": "VisionCam",
+        "repositoryURL": "https://github.com/stevewight/VisionCam",
+        "state": {
+          "branch": null,
+          "revision": "7bc6e10232aa587dfb162c4e78e35bc9ef349762",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
