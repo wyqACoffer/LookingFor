@@ -52,9 +52,6 @@ struct ContentView: View {
     }
     
     var body: some View {
-        
-        
-        
         let dragGesture1 = DragGesture()
             .onChanged { value in
                 self.po1 = value.location
@@ -130,7 +127,7 @@ struct ContentView: View {
                         page = 2
                     }
             }
-            //中华皮影，可点击 ‘展示’ 或 ‘主页’
+/// 中华皮影，可点击 ‘展示’ 或 ‘主页’
             else if page == 2 {
                 ScrollView(.horizontal, showsIndicators: false) {
                     ZStack {
@@ -147,8 +144,6 @@ struct ContentView: View {
                             Image("展示")
                                 .onTapGesture {
                                     page = 3
-                                    
-                                    
                                     playSound(sound: "下拉2", type: "mp3")
 //                                    playSound(sound: "中华皮影", type: "mp3")
                                 }
@@ -780,7 +775,6 @@ struct ContentView: View {
 //                
 //            }
             else if page == 12 {
-                
                 ZStack {
                     HStack {
                         Image("闭合卷轴")

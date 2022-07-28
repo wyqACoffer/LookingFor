@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "CodeScanner",
-        "repositoryURL": "https://github.com/twostraws/CodeScanner",
-        "state": {
-          "branch": null,
-          "revision": "a2144ddaa7c43a6ee00873edd4cc7815ad97942f",
-          "version": "1.0.7"
-        }
-      },
-      {
-        "package": "VisionCam",
-        "repositoryURL": "https://github.com/stevewight/VisionCam",
-        "state": {
-          "branch": null,
-          "revision": "7bc6e10232aa587dfb162c4e78e35bc9ef349762",
-          "version": "0.0.1"
-        }
+  "pins" : [
+    {
+      "identity" : "codescanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/CodeScanner",
+      "state" : {
+        "revision" : "8a9ce909a4ea502d4a2ccf327ae8c16b7e48e740",
+        "version" : "1.1.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "visioncam",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stevewight/VisionCam",
+      "state" : {
+        "revision" : "d889f7910a29ac71f58a0f06e933e55a45e695b5",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 2
 }
